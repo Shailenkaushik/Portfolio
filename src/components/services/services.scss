@@ -111,8 +111,8 @@
       border: 0.5px solid gray;
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
-
+      justify-content: space-around;
+      gap: 20px;
       @include mobile {
         border: none;
         align-items: center;

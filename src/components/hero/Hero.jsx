@@ -49,8 +49,8 @@ const sliderVariants={
 function Hero() {
   return (
     <div className='hero'>
-      motion.
-      <div className='wrapper'>
+      
+      <motion.div className='wrapper'>
         < motion.div 
         className='textContainer' 
         variants={textVariants} 
@@ -65,7 +65,7 @@ function Hero() {
             </ motion.div>
             <motion.img variants={textVariants} animate="scrollButton" src='/scroll.png' alt=''/>
         </ motion.div>
-      </div>
+      </motion.div>
       <motion.div className='slidingTextContainer' variants={sliderVariants} initial="initial" animate="animate">
           Coder Web developer Cloud
       </motion.div>
