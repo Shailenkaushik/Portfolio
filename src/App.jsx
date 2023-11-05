@@ -4,6 +4,9 @@ import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
 import Parallax from "./components/parallax/Parallax";
 import Services from "./components/services/Services";
+import Portfolio from "./components/portfolio/Portfolio";
+import Contact from "./components/contact/Contact";
+
 
 
 const App = () => {
@@ -23,10 +26,13 @@ const App = () => {
       <section id="Portfolio">
         <Parallax type="portfolio" ></Parallax>
       </section>
-      <section></section>
-      Portfolio
+      {/* <section>
+       
+      </section> */}
+      <Portfolio></Portfolio>
+      
       <section id="Contact">
-        Contact
+        <Contact></Contact>
       </section>
       {/* Framer Motion Crash Course */}
       {/* <Test/>

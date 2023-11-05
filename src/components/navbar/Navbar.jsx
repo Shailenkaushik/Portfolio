@@ -16,13 +16,13 @@ const Navbar = () => {
           My Portfolio
         </motion.span>
         <div className="social">
-          <a href="#">
+          <a href="https://github.com/Shailenkaushik" target="_blank">
             <img src="/github.png" alt="" />
           </a>
-          <a href="#">
+          <a href="https://www.linkedin.com/in/shailen-kaushik-52b9b6249/" target="_blank">
             <img src="/linkedin.png" alt="" />
           </a>
-          <a href="#">
+          <a href="https://leetcode.com/kaushikshailen131/" target="_blank">
             <img src="/leetcode.png" alt="" />
           </a>
           

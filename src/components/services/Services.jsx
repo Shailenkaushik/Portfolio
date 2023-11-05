@@ -25,7 +25,7 @@ const Services = () => {
   const isInView = useInView(ref, { margin: "-100px" });
 
   return (
-    <motion.div
+    <div
       className="services"
       variants={variants}
       initial="initial"
@@ -60,12 +60,9 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Frontend</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+          My expertise lies in frontend technologies, including HTML, CSS, JavaScript, and React.js. I create engaging and user-friendly interfaces that enhance the user experience.
           </p>
           <button>Go</button>
         </motion.div>
@@ -73,12 +70,9 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Backend</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+          I have a strong background in backend development, particularly with .Net Core. I'm skilled in building robust server-side applications and APIs to support dynamic web solutions.
           </p>
           <button>Go</button>
         </motion.div>
@@ -86,12 +80,9 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Database</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+          Database management is a key part of my skill set. I work with databases like MS SQL Server and MongoDB to store and retrieve data efficiently for web applications.
           </p>
           <button>Go</button>
         </motion.div>
@@ -99,17 +90,14 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Azure</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+          I'm well-versed in cloud services, especially Azure Integration and Messaging. I leverage the power of the cloud to build scalable and resilient solutions for various projects.
           </p>
           <button>Go</button>
         </motion.div>
       </motion.div>
-    </motion.div>
+    </div>
   );
 };
 
