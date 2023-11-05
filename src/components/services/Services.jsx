@@ -45,14 +45,14 @@ const Services = () => {
         <div className="title">
           <img src="/people.webp" alt="" />
           <h1>
-            <motion.b whileHover={{color:"orange"}}>Unique</motion.b> Ideas
+            <motion.b whileHover={{color:"orange"}}>Unique</motion.b> Designs
           </h1>
         </div>
         <div className="title">
           <h1>
             <motion.b whileHover={{color:"orange"}}>For Your</motion.b> Business.
           </h1>
-          <button>WHAT WE DO?</button>
+          <button>WHAT I DO?</button>
         </div>
       </motion.div>
       <motion.div className="listContainer" variants={variants}>

@@ -5,19 +5,20 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 const items = [
   {
     id: 1,
-    title: "Dine-Inn ",
+    title: "Dine-Inn",
     img: "./dine-inn.png",
-    desc: "I've developed Dine-Inn Live, a restaurant management system that provides a seamless user experience and makes it easier for administrators to control operations. The website's frontend is built using React.js, while the backend is managed with ASP Dot-net Core. Real-time user data is stored in MS SQL Server on Azure, and we've integrated Stripe for payment processing. ASP Identity is used to manage user identities.",
-    link:"https://dine-inn.netlify.app/"
+    desc:
+      "I've developed Dine-Inn Live, a restaurant management system that provides a seamless user experience and makes it easier for administrators to control operations. The website's frontend is built using React.js, while the backend is managed with ASP Dot-net Core. Real-time user data is stored in MS SQL Server on Azure, and we've integrated Stripe for payment processing. ASP Identity is used to manage user identities.",
+    link: "https://dine-inn.netlify.app/",
   },
   {
     id: 2,
     title: "Filmy-pedia",
     img: "./filmy.png",
-    desc: "Filmy-pedia Live is your go-to place for movie information. I've designed and developed a dynamic movie database website using HTML5, CSS, and JavaScript. This website integrates with The Movie Database (TMDB) API to provide real-time information on the latest movies and TV shows, including details like runtime, rating, cast, description, genre, and current running status.",
-    link:"https://filmypedia.netlify.app/"
+    desc:
+      "Filmy-pedia Live is your go-to place for movie information. I've designed and developed a dynamic movie database website using HTML5, CSS, and JavaScript. This website integrates with The Movie Database (TMDB) API to provide real-time information on the latest movies and TV shows, including details like runtime, rating, cast, description, genre, and current running status.",
+    link: "https://filmypedia.netlify.app/",
   },
-  
 ];
 
 const Single = ({ item }) => {
@@ -30,16 +31,19 @@ const Single = ({ item }) => {
   const y = useTransform(scrollYProgress, [0, 1], [-300, 300]);
 
   return (
-    <section >
+    <section>
       <div className="container">
         <div className="wrapper">
           <div className="imageContainer" ref={ref}>
             <img src={item.img} alt="" />
           </div>
-          <motion.div className="textContainer" style={{y}}>
+          <motion.div className="textContainer" style={{ y }}>
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
-            <button  >See Demo</button>
+            {/* Wrap the button in an anchor element with the href attribute */}
+            <a href={item.link} target="_blank" rel="noopener noreferrer">
+              <button>See Demo</button>
+            </a>
           </motion.div>
         </div>
       </div>

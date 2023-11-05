@@ -55,7 +55,7 @@ const Hero = () => {
             <motion.button variants={textVariants}>
               See the Latest Works
             </motion.button>
-            <motion.button variants={textVariants}>Contact Me</motion.button>
+            <motion.button variants={textVariants}   >Contact Me</motion.button>
           </motion.div>
           <motion.img
             variants={textVariants}
@@ -71,7 +71,7 @@ const Hero = () => {
         initial="initial"
         animate="animate"
       >
-        Writer Content Creator Influencer
+        Writer Coding Creator Influencer
       </motion.div>
       <div className="imageContainer">
         <img src="/hero.png" alt="" />
