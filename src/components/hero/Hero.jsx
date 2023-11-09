@@ -38,6 +38,10 @@ const sliderVariants = {
 };
 
 const Hero = () => {
+const handleClick=()=>{
+  console.log("hello");
+}
+
   return (
     <div className="hero">
       <div className="wrapper">
@@ -52,10 +56,10 @@ const Hero = () => {
             Full Stack developer and UI designer
           </motion.h1>
           <motion.div variants={textVariants} className="buttons">
-            <motion.button variants={textVariants}>
+            <motion.a variants={textVariants} href="#Portfolio">
               See the Latest Works
-            </motion.button>
-            <motion.button variants={textVariants}   >Contact Me</motion.button>
+            </motion.a>
+            <motion.a variants={textVariants} href="#Contact"  >Contact Me</motion.a>
           </motion.div>
           <motion.img
             variants={textVariants}
