@@ -19,6 +19,23 @@ const items = [
       "Filmy-pedia Live is your go-to place for movie information. I've designed and developed a dynamic movie database website using HTML5, CSS, and JavaScript. This website integrates with The Movie Database (TMDB) API to provide real-time information on the latest movies and TV shows, including details like runtime, rating, cast, description, genre, and current running status.",
     link: "https://filmypedia.netlify.app/",
   },
+  {
+    id: 3,
+    title: "LeetCode Profile",
+    img: "./leetcodeprofile.png",
+    desc:
+      "🚀 Over 600 LeetCode Problems Solved. Dedication meets proficiency! I've successfully tackled over 600 coding problems on LeetCode, showcasing my commitment to continuous learning and honing my problem-solving skills. From algorithmic challenges to data structure mastery, I've navigated through diverse problem sets of varying difficulty levels.",
+    link: "https://leetcode.com/kaushikshailen131/",
+  },
+  ,
+  {
+    id: 4,
+    title: "Coding Mastery",
+    img: "./codingninja.png",
+    desc:
+      "Dive into my coding journey where I've conquered over 600 LeetCode problems, demonstrating my unwavering commitment to continuous learning and problem-solving proficiency. In addition to the LeetCode triumph, I've navigated through 300+ challenges on Coding Ninjas, showcasing a diverse skill set and adaptability to various coding platforms.",
+    link: "https://www.codingninjas.com/studio/profile/0e381bd8-92b1-4e5d-9a3e-0e2a6538a08c",
+  },
 ];
 
 const Single = ({ item }) => {

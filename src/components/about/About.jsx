@@ -12,8 +12,8 @@ const variants = {
       y: 0,
       opacity: 1,
       transition: {
-        duration: 0.9,
-        staggerChildren: 0.2,
+        duration: 0.7,
+        staggerChildren: 0.1,
       },
     },
   };
