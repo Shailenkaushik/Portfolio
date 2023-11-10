@@ -78,7 +78,7 @@ const handleClick=()=>{
         Writer Coding Creator Influencer
       </motion.div>
       <div className="imageContainer">
-        <img src="/hero2.png" alt="" />
+        <img src="/hero4.png" alt="" />
       </div>
     </div>
   );
