@@ -69,10 +69,10 @@
     right: 0;
     
     @include mobile {
-      height: 50%;
+      height: 100%;
       width: 100%;
       top: unset;
-      bottom: 400px;
+      bottom: -100px;
     }
 
     img{
