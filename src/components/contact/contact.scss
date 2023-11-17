@@ -42,23 +42,35 @@
   }
 
   .formContainer {
+
     flex: 1;
     position: relative;
     
-    @include mobile {
-      padding: 50px;
-      width: 100%;
-    }
+    // @include mobile {
+    //   padding: 50px;
+    //   width: 100%;
+    // }
 
-
+    .Forming{
+      @include mobile {
+        visibility: hidden;
+      }
+    } 
     .phoneSvg {
       stroke: orange;
       position: absolute;
       margin: auto;
       z-index: -1;
+      @include mobile {
+        visibility: hidden;
+      }
     }
+     
+    
 
     form {
+
+      
       display: flex;
       flex-direction: column;
       gap: 20px;

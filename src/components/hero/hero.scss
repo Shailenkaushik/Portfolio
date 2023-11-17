@@ -19,6 +19,7 @@
       justify-content: center;
       gap: 40px;
       z-index: 2;
+      padding-left: 15px;
       @include mobile {
         height: 50%;
         width: 100%;
@@ -30,7 +31,8 @@
       h2 {
         font-size: 30px;
         color: rebeccapurple;
-        letter-spacing: 10px;
+        letter-spacing: 9px;
+      
       }
 
       h1 {
@@ -43,7 +45,7 @@
 
       .buttons {
         a {
-          padding: 20px;
+          padding: 10px;
           border: 1px solid white;
           border-radius: 10px;
           background-color: transparent;

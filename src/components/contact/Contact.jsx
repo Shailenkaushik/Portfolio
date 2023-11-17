@@ -60,7 +60,7 @@ const Contact = () => {
           <h2>Mail</h2>
           <span>KaushikShailen131@gmail.com</span>
         </motion.div>
-        <motion.div className="item" variants={variants}>
+        <motion.div className="item" variants={variants} id="Adress">
           <h2>Address</h2>
           <span>Sector 9A, Bahadurgarh, Haryana</span>
         </motion.div>
@@ -105,6 +105,7 @@ const Contact = () => {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ delay: 3, duration: 1 }}
+          className="Forming"
         >
           <input type="text" required placeholder="Name" name="name"/>
           <input type="email" required placeholder="Email" name="email"/>
